@@ -5,6 +5,12 @@
   list-style: none;
 }
 
+.page-nav ul {
+  list-style:none;
+  padding:0;
+  margin:30px 0;
+}
+
 .page-nav li{
   display:inline-block;
 }
@@ -36,4 +42,12 @@
 
 .page-nav a:hover:before{
   opacity:1;
+  left:10px;
+  right:10px;
+}
+
+@media (max-width:760px) {
+  .page-nav {
+    text-align: center;
+  }
 }
