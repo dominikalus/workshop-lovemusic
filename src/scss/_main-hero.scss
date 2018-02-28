@@ -1,0 +1,31 @@
+
+.main-hero{
+  $color1: rgba(black, 0.8);
+  $color2: rgba(black, 0.9);
+
+  height:100vh;
+  background:
+          linear-gradient(
+          -45deg,
+                          $color1 0%, $color1 25%,
+                          $color2 25%, $color2 50%,
+                          $color1 50%, $color1 75%,
+                          $color2 75%, $color2 100%
+          ),
+          url("../images/main-banner.jpg");
+  background-size: 10px 10px, cover;
+  background-repeat: repeat, no-repeat;
+  background-position: center bottom;
+  display:flex;
+}
+
+.main-hero .container{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-hero-bottom{
+
+}
+
+.main-hero-

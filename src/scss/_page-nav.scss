@@ -1,0 +1,39 @@
+
+.page-nav{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+.page-nav li{
+  display:inline-block;
+}
+
+.page-nav a {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px 25px;
+  color: rgba(#fff, 0.8);
+  position:relative;
+  transition: 0.5s all;
+}
+
+.page-nav a:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  opacity:0;
+  height: 1px;
+  background: $color-main;
+}
+
+.page-nav a:hover{
+  color: $color-main;
+}
+
+.page-nav a:hover:before{
+  opacity:1;
+}

@@ -1,8 +1,16 @@
-*, *:after, *:before {
-    box-sizing: border-box;
-}
 
-body {
-    margin:0;
-    background-color: red;
-}
+@import '_variables.scss';
+
+@import '_layout.scss';
+@import "_page-nav.scss";
+@import '_page-header.scss';
+
+@import '_main-banner.scss';
+@import '_main-banner-svg.scss';
+@import '_main-paralax.scss';
+@import '_page-nav.scss';
+@import '_main-hero.scss';
+@import "_main-map.scss";
+@import 'main-love-music.scss';
+
+
